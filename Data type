@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#python 程序中的基础数据类型：整型 integer 、浮点型 float、字符串string、布尔值 bool、空值None
+#整型 ————> 进制 二进制 八进制  十进制 十六进制  整数运算永远精确  
+#浮点型————> 小数 和 科学计数法 10用e代替 例如 1.23e9
+#print()函数输出字符串时‘\’为转义字符\n换行\t制表符等，r''可将引号内的字符默认不转义；('''...''')可输出自动换行格式
+print("I'm OK!")
+print("I'm \"ok\"!")
+print('\\\t\\\n\\')
+print(r'\\\t\\\n\\')
+print('''line
+one
+two
+three''')
+print(r'''I'm
+always
+waitting
+for\n
+you''')
+#布尔值 True 、False 可进行 or(或)  and(与)  not（非） 逻辑运算
+a = 3>4
+b = 3>2
+print('a =',a,'b =',b)
+print('3>4',3>4,'3>2',3>2)
+#整型和浮点型均无存储长度 限制
